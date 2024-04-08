@@ -30,6 +30,10 @@
 	}
 }
 
+.fadeInRight{
+	animation: fadeInRight 1s forwards;
+}
+
 *{
 	box-sizing: border-box;
 	background: #222;
@@ -135,4 +139,7 @@ cursor: pointer;
 }
 .disable{
 opacity: 0;
+}
+.Hidden{
+	display: none;
 }
