@@ -9,7 +9,9 @@ const $ulList = document.querySelector(`.ulList`);
 const $StartContainer = document.querySelector(`.StartContainer`);
 const $Description = document.querySelector(`.Description`);
 const $GameStart = document.querySelector(`.GameStart`);
+const $Score = document.querySelector(`.Score`);
 
+let scoreTotal=0;
 const NumList = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
   23, 24, 25,
@@ -54,9 +56,12 @@ for (let Num of NumList) {
 $ulList.addEventListener(`click`, (e) => {
   //클릭한 텍스트 찾기
 console.log(`삭제 시퀀스`);
+
   const clickText = e.target.textContent;
 
   if (deleteNumber !== +clickText) return;
+	scoreTotal+=10;
+$Score.textContent = scoreTotal;
   const liList = $ulList.querySelectorAll(`li`);
   for (let li of liList) {
     if (+clickText === +li.textContent) {
