@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
 	font-family: 'LAB디지털';
 	src: url('../font/LAB디지털.ttf');
 } 
@@ -30,9 +30,7 @@
 	}
 }
 
-.fadeInRight{
-	animation: fadeInRight 1s forwards;
-}
+
 
 *{
 	box-sizing: border-box;
@@ -42,7 +40,7 @@
 .StartContainer{
 	width: 98%;
 	height: 1100px;
-	/* background: rgba(0,0,0,0.3); */
+	background: rgba(0,0,0,0.3);
 	position:absolute;
 }
 
@@ -58,7 +56,7 @@
 .StartContainer .GameStart{
 	position: absolute;
 	top:50%;
-	left:45%;
+	left:42%;
 	font-size: 55px;
 	color: white;
 	background: gold;
@@ -156,9 +154,62 @@ padding-bottom: 10px;
 padding-right: 1px;
 cursor: pointer;
 }
+.NumberBox li:hover{
+	background:rgb(120, 199, 56);
+}
+/* 옵션 */
 .disable{
 opacity: 0;
 }
 .Hidden{
 	display: none;
+}
+
+/* 종료 컨테이너 */
+.endContainer{
+	
+	width: 33%;
+	height: 50%;
+	/* background: rgba(0,0,0,0.3); */
+	position:absolute;
+	top:25%;
+	left: 33%;
+	background:rgb(184, 60, 157);
+	border: 10px double goldenrod;
+	border-radius: 10%;
+}
+.endContainer .endMessage{
+	color: #fff;
+	font-size: 50px;
+	position: absolute;
+	top: 30%;
+	left: 29%;
+	background:rgb(184, 60, 157);
+}
+
+.endContainer .applyBtn{
+	color: #fff;
+	position: absolute;
+	top: 70%;
+	left: 31%;
+	font-size: 50px;
+	background:rgb(184, 60, 157);
+	border: 3px solid #eee;
+	/* position: absolute; */
+	/* display: block; */
+}
+
+.selected {
+  animation: jumping 0.8s infinite linear alternate;
+}
+@keyframes jumping {
+  0% {
+      transform: translateY(0) scale(1.5);
+  }
+  50% {
+      transform: translateY(1px) ;
+  }
+  100% {
+      transform: translateY(2px);
+  }
 }
