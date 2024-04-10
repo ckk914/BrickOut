@@ -1,7 +1,7 @@
 
 ### Brick Out
 ---
-1. 사용 기술 
+1. 사용 기술 <br>
  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
 ---
 2. 프로젝트 설명
