@@ -24,26 +24,10 @@ const NumList = [
 let deleteNumber = 1;
 let addNumber = 26;
 
+ //중복 클릭 방지 
+ let lastClickTime = 0;
+
 //함수 정의 영역 ======================================//
-// function TimerStart() {
-//   let totalTime = 30000; // 30초를 밀리초로 변환
-
-//   const timerId1 = setInterval(() => {
-//     let seconds = Math.floor(totalTime / 1000);
-//     let milliseconds = Math.floor((totalTime % 1000) / 10); // 밀리초를 0.01초 단위로 표시
-//     // 화면에 시간 표시 (sec:msec 형식)
-//     // console.log(`${seconds}:${milliseconds < 10 ? '0' + milliseconds : milliseconds}`);
-//     $Timer.textContent = `${seconds}:${
-//       milliseconds < 10 ? "0" + milliseconds : milliseconds
-//     }`;
-
-//     totalTime -= 10; // 10밀리초 감소
-//     if (totalTime < 0) {
-//       clearInterval(timerId1); // 타이머 종료
-//       $Timer.textContent = `GAME OVER!`;
-//     }
-//   }, 10);
-// }
 
 // 추가 함수로 할 것
 // 배열 랜덤 생성
@@ -130,7 +114,19 @@ $ulList.addEventListener(`click`, (e) => {
 
 // 게임 시작
 $GameStart.addEventListener(`click`, () => {
-  //카드 섞기
+	
+	const currentTime = new Date().getTime();
+	const timeDiff = currentTime - lastClickTime;
+
+	// 일정 시간(예: 500ms) 이내에 다시 클릭한 경우 이벤트를 무시
+	if (timeDiff < 500) {
+			e.preventDefault();
+			return;
+	}
+
+	lastClickTime = currentTime;
+
+	//카드 섞기
   const shuffledArray = NumList.sort(() => Math.random() - 0.5);
   // 카드 랜덤 생성
   randomCard();
@@ -178,7 +174,7 @@ $GameStart.addEventListener(`click`, () => {
         }
       }
     }, 10);
-  }, 2000);
+  }, 2000);	
 });
 
 // 응모하기 / 다시하기 버튼 클릭
