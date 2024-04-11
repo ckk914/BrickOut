@@ -3,11 +3,11 @@
 
 ![image](https://github.com/ckk914/BrickOut/assets/50573460/218f477a-06a8-4aca-8517-5fa04916b5f2)
 ---
- 제한시간내 블럭숫자를 빠르게 클릭하는 프로모션 게임<br>
+ ## 제한시간내 블럭숫자를 빠르게 클릭하는 프로모션 게임<br>
  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
 ---
-🎯 기능 요구사항<br>
- ▪숫자 박스 클릭 시 박스가 제거된다.<br>
+## 🎯 기능 요구사항  
+ ▪숫자 박스 클릭 시 박스가 제거된다.  
  ▪제거될때 재미를 위해 애니메이션 추가<br>
  ▪숫자 순서가 틀렸을때 애니메이션 추가<br>
  ▪화면 전환 애니메이션 추가<br>
