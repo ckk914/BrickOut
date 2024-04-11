@@ -37,6 +37,7 @@
 
 3. '게임 시작' 여러 번 클릭 시 블럭 계속 생성
 ![image](https://github.com/ckk914/BrickOut/assets/50573460/213a2c6f-ecbb-4f18-a859-46cb2329b6d7)
+
 '게임 시작'을 500ms 안에 다시 누른 것이면 return 되도록 처리
 
    
