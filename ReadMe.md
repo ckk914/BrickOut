@@ -27,9 +27,12 @@
 1. 게임시작 박스를 지웠는데, 게임 시작 버튼이 살아 있어서, 게임 시작 계속 클릭되는 현상 발생
 ![image](https://github.com/ckk914/BrickOut/assets/50573460/1e6634fa-0e6c-4195-88f7-74bd31f48c72)
 - 게임 시작 박스+ 게임 시작 버튼 둘다 display:none; 처리로 해결!
-
+```
+    $GameStart.classList.add(`Hidden`);
+    $StartContainer.classList.add(`Hidden`);
+```
 2. 게임 종료 후 Game Clear였는데, GameOver되는 문제  
   = 코드 확인 결과 타이머 중복 선언  
-  = -> 제거 후 별도 ClearFlag 추가하여, 문제 처리 완료!  
-
+  = -> 제거 후 별도 ClearFlag 추가하여, 문제 처리 완료!
+    
 ---
