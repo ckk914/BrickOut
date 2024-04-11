@@ -1,5 +1,6 @@
 
 ### Brick Out
+![image](https://github.com/ckk914/BrickOut/assets/50573460/ed8acde6-17b8-479a-b0c8-a4dcb39153db)
 ---
 1. 사용 기술 <br>
  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
