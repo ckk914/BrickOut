@@ -36,7 +36,7 @@
   = -> 중복된 타이머 제거 후, 코드 보완점으로 ClearFlag 추가하여, 문제 처리 완료!
 
 3. '게임 시작' 여러 번 클릭 시 블럭 계속 생성
-![image](https://github.com/ckk914/BrickOut/assets/50573460/213a2c6f-ecbb-4f18-a859-46cb2329b6d7)
+![image](https://github.com/ckk914/BrickOut/assets/50573460/213a2c6f-ecbb-4f18-a859-46cb2329b6d7){: width="70%" height="70%"}
 
 
 
