@@ -50,20 +50,8 @@
 
 
    
-'게임 시작'을 500ms 안에 다시 누른 것이면 return 되도록 처리
-```
-//클릭한지 500ms 안되었으면 return;
-const currentTime = new Date().getTime();
-	const timeDiff = currentTime - lastClickTime;
-
-	// 일정 시간(예: 500ms) 이내에 다시 클릭한 경우 이벤트를 무시
-	if (timeDiff < 500) {
-			e.preventDefault();
-			return;
-	}
-
-	lastClickTime = currentTime;
-```
+'게임 시작'을 500ms 안에 
+다시 클릭한 것이면 return 되도록 처리
 
    
 ---
