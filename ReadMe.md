@@ -6,10 +6,11 @@
  ## 제한시간내 블럭숫자를 빠르게 클릭하는 프로모션 게임<br>
  <img src="https://img.shields.io/badge/language-html-red.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-css-blue.svg?style=flat-square"/><img src="https://img.shields.io/badge/language-js-yellow.svg?style=flat-square"/>
 ---
-## 🕹게임 방법  
-▪ 게임시작 버튼을 눌러서 게임을 시작한다.  
-▪ 제한 시간 안에 1부터 차례로 30까지 순서대로 클릭한다.
-▪ 시간 내 다 누르면 클리어, 못누르면 실패😥
+
+## 🕹게임 방법  <br>
+- 게임시작 버튼을 눌러서 게임을 시작한다.  
+- 제한 시간 안에 1부터 차례로 30까지 순서대로 클릭한다.
+- 시간 내 다 누르면 클리어, 못누르면 실패😥
 ---
 ## 🎯 기능 요구사항  
  ▪ 숫자 박스 클릭 시 박스가 제거된다.  
