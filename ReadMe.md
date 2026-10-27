@@ -1,5 +1,5 @@
 
-### Brick Out
+### 🟦 Brick Out
 
 ![image](https://github.com/ckk914/BrickOut/assets/50573460/218f477a-06a8-4aca-8517-5fa04916b5f2)
 ---
